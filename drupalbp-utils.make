@@ -29,16 +29,3 @@ projects[pathologic][download][type] = git
 projects[pathologic][download][url] = http://git.drupal.org/project/pathologic.git
 projects[pathologic][download][branch] = 7.x-1.x
 projects[pathologic][subdir] = contrib
-
-projects[poormanscron][version] = 2.x-dev
-projects[poormanscron][download][type] = git
-projects[poormanscron][download][url] = http://git.drupal.org/project/poormanscron.git
-projects[poormanscron][download][branch] = 7.x-2.x
-projects[poormanscron][subdir] = contrib
-
-;*******Optional*******
-projects[openidadmin][version] = 1
-projects[openidadmin][download][type] = git
-projects[openidadmin][download][url] = http://git.drupal.org/project/openidadmin.git
-projects[openidadmin][download][branch] = 7.x-1.x
-projects[openidadmin][subdir] = contrib

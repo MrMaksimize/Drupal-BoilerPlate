@@ -14,5 +14,5 @@ projects[facetapi][subdir] = contrib
 projects[search404][version] = 1.1
 projects[search404][download][type] = git
 projects[search404][download][url] = http://git.drupal.org/project/search404.git
-projects[search404][download][tag] = 7.x-1.0-rc1
+projects[search404][download][tag] = 7.x-1.1
 projects[search404][subdir] = contrib

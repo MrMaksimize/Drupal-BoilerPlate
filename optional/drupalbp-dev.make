@@ -46,10 +46,10 @@ projects[variable][download][url] = http://git.drupal.org/project/variable.git
 projects[variable][download][branch] = 7.x-1.x
 projects[variable][subdir] = development
 
-projects[masquerade][version] = 7.x-2.x-dev
+projects[masquerade][version] = 7.x-1.0-rc4
 projects[masquerade][download][type] = git
 projects[masquerade][download][url] = http://git.drupal.org/project/masquerade.git
-projects[masquerade][download][branch] = 7.x-2.x
+projects[masquerade][download][tag] = 7.x-1.0-rc4
 projects[masquerade][subdir] = development
 
 projects[module_builder][version] = 2.x-dev

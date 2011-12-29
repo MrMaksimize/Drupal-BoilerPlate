@@ -55,8 +55,8 @@ libraries[jquery.cycle][download][url] = "git://github.com/malsup/cycle.git"
 libraries[jquery.cycle][directory_name] = jquery.cycle
 libraries[jquery.cycle][destination] = libraries
 
-projects[flag][version] = 2.x-dev
+projects[flag][version] = 7.x-2.0-beta6
 projects[flag][download][type] = git
 projects[flag][download][url] = http://git.drupal.org/project/flag.git
-projects[flag][download][branch] = 7.x-2.x-dev
+projects[flag][download][tag] = 7.x-2.0-beta6
 projects[flag][subdir] = contrib
