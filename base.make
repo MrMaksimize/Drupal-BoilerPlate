@@ -53,19 +53,13 @@ projects[feeds][version] = 2
 projects[feeds][download][type] = git
 projects[feeds][download][url] = http://git.drupal.org/project/feeds.git
 projects[feeds][download][branch] = 7.x-2.x
-projects[feeds][subdir] = development
-
-projects[variable][version] = 1
-projects[variable][download][type] = git
-projects[variable][download][url] = http://git.drupal.org/project/variable.git
-projects[variable][download][branch] = 7.x-1.x
-projects[variable][subdir] = development
+projects[feeds][subdir] = contrib
 
 projects[advanced_help][version] = 1.x-dev
 projects[advanced_help][download][type] = git
 projects[advanced_help][download][url] = http://git.drupal.org/project/advanced_help.git
 projects[advanced_help][download][branch] = 7.x-1.x
-projects[advanced_help][subdir] = development
+projects[advanced_help][subdir] = contrib
 
 ; Fields
 projects[email][version] = 1
@@ -266,3 +260,10 @@ projects[google_analytics][download][type] = git
 projects[google_analytics][download][url] = http://git.drupal.org/project/google_analytics.git
 projects[google_analytics][download][branch] = 7.x-1.x
 projects[google_analytics][subdir] = contrib
+
+; Libraries and junk
+projects[jquery_update][version] = 2.2
+projects[jquery_update][download][type] = git
+projects[jquery_update][download][url] = http://git.drupal.org/project/jquery_update.git
+projects[jquery_update][download][tag] = 7.x-2.2
+projects[jquery_update][subdir] = contrib

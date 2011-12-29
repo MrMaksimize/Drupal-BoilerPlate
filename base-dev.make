@@ -1,10 +1,6 @@
-; Base make file
+; Base dev make file
 ;
-; This is the make file that includes everything that no drupal site should be without.
-;
-; Use it with the following command:
-;
-; drush make base.make <target directory>
+; This make file includes everything for developers
 
 ; Development
 projects[devel][version] = 1
@@ -12,6 +8,12 @@ projects[devel][download][type] = git
 projects[devel][download][url] = http://git.drupal.org/project/devel.git
 projects[devel][download][branch] = 7.x-1.x
 projects[devel][subdir] = development
+
+projects[schema][version] = 7.x-1.0-beta3
+projects[schema][download][type] = git
+projects[schema][download][url] = http://git.drupal.org/project/schema.git
+projects[schema][download][tag] = 7.x-1.0-beta3
+projects[schema][subdir] = development
 
 projects[coder][version] = 1
 projects[coder][download][type] = git
@@ -36,3 +38,9 @@ projects[strongarm][download][type] = git
 projects[strongarm][download][url] = http://git.drupal.org/project/strongarm.git
 projects[strongarm][download][branch] = 7.x-2.x
 projects[strongarm][subdir] = development
+
+projects[variable][version] = 1
+projects[variable][download][type] = git
+projects[variable][download][url] = http://git.drupal.org/project/variable.git
+projects[variable][download][branch] = 7.x-1.x
+projects[variable][subdir] = development
