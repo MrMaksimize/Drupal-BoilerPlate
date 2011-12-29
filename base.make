@@ -6,7 +6,12 @@
 ;
 ; drush make base.make <target directory>
 
-; API Modules
+;Includes
+includes[base] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/base.make"
+includes[base-dev] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/base-dev.make"
+includes[base-themes] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/base-themes.make"
+
+;API Modules
 projects[ctools][version] = 1.x-dev
 projects[ctools][download][type] = git
 projects[ctools][download][url] = http://git.drupal.org/project/ctools.git
