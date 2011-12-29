@@ -1,7 +1,8 @@
-; Base dev make file
+; dev make file
 ;
 ; This make file includes everything for developers
 
+;*****Strongly Recommended******
 ; Development
 projects[devel][version] = 1
 projects[devel][download][type] = git

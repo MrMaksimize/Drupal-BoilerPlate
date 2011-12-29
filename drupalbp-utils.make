@@ -1,4 +1,5 @@
 ; Utilities
+;*******Strongly Recommended*******
 projects[advanced_help][version] = 1.x-dev
 projects[advanced_help][download][type] = git
 projects[advanced_help][download][url] = http://git.drupal.org/project/advanced_help.git
@@ -23,33 +24,21 @@ projects[module_filter][download][url] = http://git.drupal.org/project/module_fi
 projects[module_filter][download][branch] = 7.x-1.x
 projects[module_filter][subdir] = contrib
 
-projects[openidadmin][version] = 1
-projects[openidadmin][download][type] = git
-projects[openidadmin][download][url] = http://git.drupal.org/project/openidadmin.git
-projects[openidadmin][download][branch] = 7.x-1.x
-projects[openidadmin][subdir] = contrib
-
 projects[pathologic][version] = 1
 projects[pathologic][download][type] = git
 projects[pathologic][download][url] = http://git.drupal.org/project/pathologic.git
 projects[pathologic][download][branch] = 7.x-1.x
 projects[pathologic][subdir] = contrib
 
-;redirection - figure this out
-projects[redirect][version] = 1.x-dev
-projects[redirect][download][type] = git
-projects[redirect][download][url] = http://git.drupal.org/project/redirect.git
-projects[redirect][download][branch] = 7.x-1.x
-projects[redirect][subdir] = contrib
-
-projects[globalredirect][version] = 1.x-dev
-projects[globalredirect][download][type] = git
-projects[globalredirect][download][url] = http://git.drupal.org/project/globalredirect.git
-projects[globalredirect][download][branch] = 7.x-1.x
-projects[globalredirect][subdir] = contrib
-
 projects[poormanscron][version] = 2.x-dev
 projects[poormanscron][download][type] = git
 projects[poormanscron][download][url] = http://git.drupal.org/project/poormanscron.git
 projects[poormanscron][download][branch] = 7.x-2.x
 projects[poormanscron][subdir] = contrib
+
+;*******Optional*******
+projects[openidadmin][version] = 1
+projects[openidadmin][download][type] = git
+projects[openidadmin][download][url] = http://git.drupal.org/project/openidadmin.git
+projects[openidadmin][download][branch] = 7.x-1.x
+projects[openidadmin][subdir] = contrib
