@@ -7,8 +7,8 @@
 ; drush make base.make <target directory>
 
 ;Includes
-includes[drupalbp-dev] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/base-dev.make"
-includes[drupalbp-themes] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/base-themes.make"
+includes[drupalbp-dev] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-dev.make"
+includes[drupalbp-themes] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-themes.make"
 
 ;API Modules
 projects[ctools][version] = 1.x-dev
