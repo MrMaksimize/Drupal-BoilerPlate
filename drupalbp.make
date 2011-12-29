@@ -22,6 +22,7 @@ includes[drupalbp-html5] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlat
 includes[drupalbp-omega] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/optional/drupalbp-omega.make"
 includes[drupalbp-search] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/optional/drupalbp-search.make"
 includes[drupalbp-seo] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/optional/drupalbp-seo.make"
+includes[drupalbp-services] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/optional/drupalbp-services.make"
 includes[drupalbp-structure-optional] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/optional/drupalbp-structure-optional.make"
 includes[drupalbp-themes-optional] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/optional/drupalbp-themes-optional.make"
 includes[drupalbp-translation] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/optional/drupalbp-translation.make"
