@@ -50,3 +50,9 @@ projects[masquerade][download][type] = git
 projects[masquerade][download][url] = http://git.drupal.org/project/masquerade.git
 projects[masquerade][download][branch] = 7.x-2.x
 projects[masquerade][subdir] = development
+
+projects[module_builder][version] = 2.x-dev
+projects[module_builder][download][type] = git
+projects[module_builder][download][url] = http://git.drupal.org/project/module_builder.git
+projects[module_builder][download][branch] = 7.x-2.x
+projects[module_builder][subdir] = development
