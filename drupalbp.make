@@ -7,9 +7,8 @@
 ; drush make base.make <target directory>
 
 ;Includes
-includes[base] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/base.make"
-includes[base-dev] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/base-dev.make"
-includes[base-themes] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/base-themes.make"
+includes[drupalbp-dev] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/base-dev.make"
+includes[drupalbp-themes] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/base-themes.make"
 
 ;API Modules
 projects[ctools][version] = 1.x-dev
@@ -19,9 +18,9 @@ projects[ctools][download][branch] = 7.x-1.x
 projects[ctools][subdir] = contrib
 
 projects[entity][version] = 1.x-dev
-projects[entity[download][type] = git
-projects[entity[download][url] = http://git.drupal.org/project/entity.git
-projects[entity[download][branch] = 7.x-1.x
+projects[entity][download][type] = git
+projects[entity][download][url] = http://git.drupal.org/project/entity.git
+projects[entity][download][branch] = 7.x-1.x
 projects[entity][subdir] = contrib
 
 projects[token][version] = 1.x-dev
