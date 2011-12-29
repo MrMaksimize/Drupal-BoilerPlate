@@ -6,12 +6,18 @@
 ;
 ; drush make base.make <target directory>
 
+; Core version
+core = 7.x
+
+; API version
+api = 2
+
 ;Required Includes
 includes[drupalbp-api] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-api.make"
 includes[drupalbp-content] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-content.make"
-includes[drupalbp-libs] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-libs.make"
+;includes[drupalbp-libs] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-libs.make"
 includes[drupalbp-structure] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-structure.make"
-includes[drupalbp-themes] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-themes.make"
+;includes[drupalbp-themes] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-themes.make"
 includes[drupalbp-utils] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-utils.make"
 
 ;Optional Includes
