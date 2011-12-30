@@ -16,7 +16,7 @@ function dev_form_install_configure_form_alter(&$form, $form_state) {
   $form['admin_account']['account']['name']['#default_value'] = "admin";
   $form['admin_account']['account']['mail']['#default_value'] = DEV_SYSTEM_USER_EMAIL;
 
-  $form['server_settings']['site_default_country']['#default_value'] = "DE";
+  $form['server_settings']['site_default_country']['#default_value'] = "US";
 
   $form['update_notifications']['update_status_module']['#default_value'] = array();
 
