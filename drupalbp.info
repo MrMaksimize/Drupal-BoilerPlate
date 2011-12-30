@@ -24,6 +24,7 @@ dependencies[] = token
 dependencies[] = pathauto
 dependencies[] = libraries
 dependencies[] = jquery_update
+dependencies[] = styles
 
 ; API - Optional
 dependencies[] = rules
@@ -58,9 +59,6 @@ dependencies[] = radioactivity
 dependencies[] = responsive_images
 dependencies[] = addtoany
 dependencies[] = author_pane
-dependencies[] = media
-dependencies[] = media_update
-dependencies[] = views_media_browser
 
 ; Structure
 dependencies[] = ds
@@ -110,6 +108,15 @@ dependencies[] = module_builder
 dependencies[] = elements
 dependencies[] = html5_tools
 dependencies[] = modernizr
+
+; Media
+dependencies[] = media
+dependencies[] = mediafront
+dependencies[] = media_browser_plus
+dependencies[] = media_youtube
+dependencies[] = media_vimeo
+dependencies[] = html5_media
+dependencies[] = media_update
 
 ; Omega
 dependencies[] = omega

@@ -37,3 +37,9 @@ projects[jquery_update][download][type] = git
 projects[jquery_update][download][url] = http://git.drupal.org/project/jquery_update.git
 projects[jquery_update][download][tag] = 7.x-2.2
 projects[jquery_update][subdir] = contrib
+
+projects[styles][version] = 1.0-alpha4
+projects[styles][download][type] = git
+projects[styles][download][url] = http://git.drupal.org/project/styles.git
+projects[styles][download][tag] = 7.x-1.0-alpha4
+projects[styles][subdir] = contrib

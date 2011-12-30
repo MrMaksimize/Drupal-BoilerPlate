@@ -25,6 +25,7 @@ includes[drupalbp-api-optional] = "https://raw.github.com/MrMaksimize/Drupal-Boi
 includes[drupalbp-content-optional] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/optional/drupalbp-content-optional.make"
 includes[drupalbp-dev] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/optional/drupalbp-dev.make"
 includes[drupalbp-html5] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/optional/drupalbp-html5.make"
+includes[drupalbp-media] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/optional/drupalbp-media.make"
 includes[drupalbp-omega] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/optional/drupalbp-omega.make"
 includes[drupalbp-search] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/optional/drupalbp-search.make"
 includes[drupalbp-seo] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/optional/drupalbp-seo.make"

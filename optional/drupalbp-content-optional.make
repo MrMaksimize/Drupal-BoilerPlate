@@ -91,23 +91,3 @@ projects[author_pane][download][type] = git
 projects[author_pane][download][url] = http://git.drupal.org/project/author_pane.git
 projects[author_pane][download][tag] = 7.x-2.0-alpha1
 projects[author_pane][subdir] = contrib
-
-; Media
-projects[media][version] = 2.x-dev
-projects[media][download][type] = git
-projects[media][download][url] = http://git.drupal.org/project/media.git
-projects[media][download][branch] = 7.x-2.x
-projects[media][subdir] = contrib
-
-projects[media_update][version] = 1
-projects[media_update][download][type] = git
-projects[media_update][download][url] = http://git.drupal.org/project/media_update.git
-projects[media_update][download][branch] = 7.x-1.x
-projects[media_update][subdir] = contrib
-
-; needs media 2.x
-;projects[views_media_browser][version] = 1
-;projects[views_media_browser][download][type] = git
-;projects[views_media_browser][download][url] = http://git.drupal.org/project/views_media_browser.git
-;projects[views_media_browser][download][branch] = 7.x-1.x
-;projects[views_media_browser][subdir] = contrib
