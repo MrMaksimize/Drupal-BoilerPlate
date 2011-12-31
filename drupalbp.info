@@ -3,7 +3,7 @@ description = D7 boilerplate
 core = 7.x
 
 ; Core
-;dependencies[] = dblog
+;dependencies[] = dblog something weird with this
 dependencies[] = block
 dependencies[] = contextual
 dependencies[] = help
@@ -16,6 +16,11 @@ dependencies[] = path
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = locale
+dependencies[] = dasboard
+dependencies[] = color
+dependencies[] = overlay
+dependencies[] = php
+dependencies[] = rdf
 
 ; API
 dependencies[] = ctools
@@ -25,21 +30,32 @@ dependencies[] = pathauto
 dependencies[] = libraries
 dependencies[] = jquery_update
 dependencies[] = styles
+dependencies[] = styles_ui
+dependencies[] = file_styles
 
 ; API - Optional
 dependencies[] = rules
+dependencies[] = rules_ui
 dependencies[] = votingapi
 dependencies[] = feeds
+dependencies[] = feeds_ui
 dependencies[] = job_scheduler
 dependencies[] = boxes
 dependencies[] = bean
+dependencies[] = bean_admin_ui
 dependencies[] = jquery_plugin
 
 ; Content
 dependencies[] = transliteration
 dependencies[] = email
 dependencies[] = link
-;dependencies[] = date
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_context
+dependencies[] = date_popup
+dependencies[] = date_repeat
+dependencies[] = date_tools
+dependencies[] = date_views
 dependencies[] = field_group
 dependencies[] = filefield_sources
 dependencies[] = filefield_paths
@@ -50,10 +66,11 @@ dependencies[] = webform_validation
 dependencies[] = site_map
 dependencies[] = relation
 dependencies[] = service_links
+dependencies[] = general_services
 dependencies[] = content_access
 dependencies[] = acl
-;dependencies[] = captcha
-;dependencies[] = recaptcha
+dependencies[] = captcha
+dependencies[] = recaptcha
 dependencies[] = extlink
 dependencies[] = fivestar
 dependencies[] = radioactivity
@@ -63,18 +80,27 @@ dependencies[] = author_pane
 
 ; Structure
 dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = ds_forms
+dependencies[] = ds_search
 dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = context_layouts
 dependencies[] = menu_block
+dependencies[] = menu_block_export
 dependencies[] = views
+dependencies[] = views_ui
 
 ; Structure - Optional
 dependencies[] = views_bulk_operations
 dependencies[] = colorbox
 dependencies[] = nodequeue
 dependencies[] = quicktabs
+dependencies[] = quicktabs_styles
 dependencies[] = taxonomy_manager
 dependencies[] = taxonomy_menu
 dependencies[] = views_slideshow
+dependencies[] = views_slideshow_cycle
 dependencies[] = flag
 
 ; Themes
@@ -86,6 +112,7 @@ dependencies[] = flag
 ; Utils
 dependencies[] = advanced_help
 dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = backup_migrate
 dependencies[] = module_filter
 dependencies[] = pathologic
@@ -96,8 +123,10 @@ dependencies[] = openidadmin
 ; Other optional things
 ; Dev
 dependencies[] = devel
+dependencies[] = devel_generate
 dependencies[] = schema
 dependencies[] = coder
+dependencies[] = coder_review
 dependencies[] = diff
 dependencies[] = features
 dependencies[] = strongarm
@@ -113,6 +142,7 @@ dependencies[] = modernizr
 ; Media
 dependencies[] = media
 dependencies[] = mediafront
+dependencies[] = osm_player
 dependencies[] = media_browser_plus
 dependencies[] = media_youtube
 dependencies[] = media_vimeo
@@ -122,24 +152,36 @@ dependencies[] = media_update
 ; Omega
 ;dependencies[] = omega
 dependencies[] = delta
+dependencies[] = delta_blocks
+dependencies[] = delta_color
+dependencies[] = delta_ui
 dependencies[] = omega_tools
 dependencies[] = responder
 
 ; Search
 dependencies[] = search_api
 dependencies[] = facetapi
+dependencies[] = current_search
 dependencies[] = search404
 
 ; SEO
 dependencies[] = metatag
 dependencies[] = xmlsitemap
-;dependencies[] = google_analytics
+dependencies[] = xmlsitemap_custom
+dependencies[] = xmlsitemap_engines
+dependencies[] = xmlsitemap_menu
+dependencies[] = xmlsitemap_modal
+dependencies[] = xmlsitemap_node
+dependencies[] = xmlsitemap_taxonomy
+dependencies[] = xmlsitemap_user
+;dependencies[] = google_analytics naming issue here
 dependencies[] = site_verify
 dependencies[] = redirect
 dependencies[] = globalredirect
 
 ; Services
 dependencies[] = services
+dependencies[] = rest_server
 dependencies[] = services_views
 
 ; Translation
