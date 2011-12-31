@@ -79,8 +79,8 @@ dependencies[] = flag
 ; Themes
 
 ; Themes - Optional
-dependencies[] = tao
-dependencies[] = rubik
+;dependencies[] = tao
+;dependencies[] = rubik
 
 ; Utils
 dependencies[] = advanced_help
@@ -119,7 +119,7 @@ dependencies[] = html5_media
 dependencies[] = media_update
 
 ; Omega
-dependencies[] = omega
+;dependencies[] = omega
 dependencies[] = delta
 dependencies[] = omega_tools
 dependencies[] = responder
