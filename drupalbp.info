@@ -57,7 +57,7 @@ dependencies[] = extlink
 dependencies[] = fivestar
 dependencies[] = radioactivity
 dependencies[] = responsive_images
-dependencies[] = addtoany
+;dependencies[] = addtoany
 dependencies[] = author_pane
 
 ; Structure
@@ -132,7 +132,7 @@ dependencies[] = search404
 ; SEO
 dependencies[] = metatag
 dependencies[] = xmlsitemap
-dependencies[] = google_analytics
+;dependencies[] = google_analytics
 dependencies[] = site_verify
 dependencies[] = redirect
 dependencies[] = globalredirect
