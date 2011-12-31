@@ -17,6 +17,12 @@ projects[feeds][download][url] = http://git.drupal.org/project/feeds.git
 projects[feeds][download][branch] = 7.x-2.x
 projects[feeds][subdir] = contrib
 
+projects[job_scheduler][version] = 2.0-alpha2
+projects[job_scheduler][download][type] = git
+projects[job_scheduler][download][url] = http://git.drupal.org/project/job_scheduler.git
+projects[job_scheduler][download][tag] = 7.x-2.0-alpha2
+projects[job_scheduler][subdir] = contrib
+
 projects[boxes][version] = 1.x-dev
 projects[boxes][download][type] = git
 projects[boxes][download][url] = http://git.drupal.org/project/boxes.git
