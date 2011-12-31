@@ -1,0 +1,153 @@
+name = Drupal BoilerPlate
+description = D7 boilerplate
+core = 7.x
+
+; Core
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = locale
+
+; API
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = token
+dependencies[] = pathauto
+dependencies[] = libraries
+dependencies[] = jquery_update
+dependencies[] = styles
+
+; API - Optional
+dependencies[] = rules
+dependencies[] = votingapi
+dependencies[] = feeds
+dependencies[] = boxes
+dependencies[] = bean
+dependencies[] = jquery_plugin
+
+; Content
+dependencies[] = transliteration
+dependencies[] = email
+dependencies[] = link
+dependencies[] = date
+dependencies[] = field_group
+dependencies[] = filefield_sources
+dependencies[] = filefield_paths
+
+; Content - Optional
+dependencies[] = webform
+dependencies[] = webform_validation
+dependencies[] = site_map
+dependencies[] = relation
+dependencies[] = service_links
+dependencies[] = content_access
+dependencies[] = acl
+dependencies[] = captcha
+dependencies[] = recaptcha
+dependencies[] = extlink
+dependencies[] = fivestar
+dependencies[] = radioactivity
+dependencies[] = responsive_images
+;dependencies[] = addtoany
+dependencies[] = author_pane
+
+; Structure
+dependencies[] = ds
+dependencies[] = context
+dependencies[] = menu_block
+dependencies[] = views
+
+; Structure - Optional
+dependencies[] = views_bulk_operations
+dependencies[] = colorbox
+dependencies[] = nodequeue
+dependencies[] = quicktabs
+dependencies[] = taxonomy_manager
+dependencies[] = taxonomy_menu
+dependencies[] = views_slideshow
+dependencies[] = flag
+
+; Themes
+
+; Themes - Optional
+;dependencies[] = tao
+;dependencies[] = rubik
+
+; Utils
+dependencies[] = advanced_help
+dependencies[] = admin_menu
+dependencies[] = backup_migrate
+dependencies[] = module_filter
+dependencies[] = pathologic
+
+; Utils - Optional
+dependencies[] = openidadmin
+
+; Other optional things
+; Dev
+dependencies[] = devel
+dependencies[] = schema
+dependencies[] = coder
+dependencies[] = diff
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = variable
+dependencies[] = masquerade
+dependencies[] = module_builder
+
+; HTML5
+dependencies[] = elements
+dependencies[] = html5_tools
+dependencies[] = modernizr
+
+; Media
+dependencies[] = media
+dependencies[] = mediafront
+dependencies[] = media_browser_plus
+dependencies[] = media_youtube
+dependencies[] = media_vimeo
+dependencies[] = html5_media
+dependencies[] = media_update
+
+; Omega
+;dependencies[] = omega
+dependencies[] = delta
+dependencies[] = omega_tools
+dependencies[] = responder
+
+; Search
+dependencies[] = search_api
+dependencies[] = facetapi
+dependencies[] = search404
+
+; SEO
+dependencies[] = metatag
+dependencies[] = xmlsitemap
+;dependencies[] = google_analytics
+dependencies[] = site_verify
+dependencies[] = redirect
+dependencies[] = globalredirect
+
+; Services
+dependencies[] = services
+dependencies[] = services_views
+
+; Translation
+dependencies[] = stringoverrides
+
+; WYSIWYG
+dependencies[] = wysiwyg
+dependencies[] = insert
+dependencies[] = image_resize_filter
+
+; Profile
+files[] = drupalbp.profile
