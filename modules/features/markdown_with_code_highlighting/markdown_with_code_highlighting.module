@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Markdown with Code Highlighting feature.
+ */
+
+include_once('markdown_with_code_highlighting.features.inc');
