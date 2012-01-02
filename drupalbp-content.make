@@ -84,12 +84,6 @@ projects[service_links][download][url] = http://git.drupal.org/project/service_l
 projects[service_links][download][tag] = 7.x-2.1
 projects[service_links][subdir] = contrib
 
-projects[responsive_images][version] = 1.0-beta3
-projects[responsive_images][download][type] = git
-projects[responsive_images][download][url] = http://git.drupal.org/project/responsive_images.git
-projects[responsive_images][download][tag] = 7.x-1.0-beta3
-projects[responsive_images][subdir] = contrib
-
 projects[captcha][version] = 1.0-beta1
 projects[captcha][download][type] = git
 projects[captcha][download][url] = http://git.drupal.org/project/captcha.git

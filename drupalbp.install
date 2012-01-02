@@ -45,9 +45,9 @@ function drupalbp_install() {
   );
   //set up themes
   theme_enable($theme_list);
-  $theme_default = 'omega';
+  $default_theme = 'omega';
   $admin_theme = 'rubik';
-  variable_set('theme_default', $theme_default);
+  variable_set('theme_default', $default_theme);
   variable_set('admin_theme', $admin_theme);
   variable_set('node_admin_theme', '1');
   //set up default blocks
@@ -176,4 +176,62 @@ function drupalbp_install() {
   db_insert('users_roles')
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
     ->execute();
+  //based on https://github.com/mikewink/drupal7-profile-dev/blob/master/dev.install
+
+   // Account settings
+  // [admin/config/people/accounts]
+  variable_set('user_admin_role', '1');
+  variable_set('user_register', '0');
+  variable_set('user_email_verification', '1');
+  variable_set('user_cancel_method', 'user_cancel_delete');
+
+  // Regional settings
+  // [admin/config/regional/settings]
+  variable_set('date_first_day', '1'); // Monday
+  variable_set('configurable_timezones', '0');
+
+  // Date and time types / formats
+  // [admin/config/regional/date-time]
+  variable_set('date_format_long', 'l, j. F Y - G:i');
+  variable_set('date_format_medium', 'j. F Y - G:i');
+  variable_set('date_format_short', 'd.m.Y - H:i');
+
+   // Feed settings
+  // [admin/config/services/rss-publishing]
+  $feed_description = st('@site_name installation RSS feed. This is just a test!', array('@site_name', variable_get('site_name', 'Drupal 7 Development Workbench')));
+  variable_set('feed_description', $feed_description);
+  variable_set('feed_default_items', '5');
+  variable_set('feed_item_length', 'fulltext');
+
+  // File system
+  // [admin/config/media/file-system]
+
+  drupal_mkdir('../tmp');
+  drupal_mkdir('../files');
+
+  variable_set('file_temporary_path', '../tmp');
+  variable_set('file_public_path', 'sites/default/files');
+  variable_set('file_private_path', '../files');
+  variable_set('file_default_scheme', 'public');
+
+  // Image toolkit
+  // [admin/config/media/image-toolkit]
+  variable_set('image_toolkit', 'gd');
+  variable_set('image_jpeg_quality', '100');
+
+  // Maintenance mode
+  // [admin/config/development/maintenance]
+  $maintenance_mode_message = st('@site_name is currently under maintenance. We should be back shortly. Thank you for your patience.', array('@site_name' => variable_get('site_name', 'Drupal 7 Development Workbench')));
+  variable_set('maintenance_mode_message', $maintenance_mode_message);
+  variable_set('maintenance_mode', '0');
+
+  // Devel settings
+  // [admin/config/development/devel]
+  if(module_exists('devel')) {
+    variable_set('devel_error_handler', 3);
+    variable_set('devel_krumo_skin', 'blue');
+    variable_set('devel_rebuild_theme_registry', 1);
+  }
+
+  variable_set('cron_safe_threshold', '10800');
 }

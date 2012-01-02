@@ -41,3 +41,16 @@ projects[author_pane][download][type] = git
 projects[author_pane][download][url] = http://git.drupal.org/project/author_pane.git
 projects[author_pane][download][tag] = 7.x-2.0-alpha1
 projects[author_pane][subdir] = contrib
+
+; Responsive Images (GitHub)
+libraries[responsive_images][download][type] = git
+libraries[responsive_images][download][url] = "git://github.com/filamentgroup/Responsive-Images.git"
+libraries[responsive_images][download][branch] = "cookie-driven"
+libraries[responsive_images][directory_name] = responsive_images
+libraries[responsive_images][destination] = libraries
+
+projects[responsive_images][version] = 1.0-beta3
+projects[responsive_images][download][type] = git
+projects[responsive_images][download][url] = http://git.drupal.org/project/responsive_images.git
+projects[responsive_images][download][tag] = 7.x-1.0-beta3
+projects[responsive_images][subdir] = contrib
