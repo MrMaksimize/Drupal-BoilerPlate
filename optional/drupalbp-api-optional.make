@@ -29,11 +29,17 @@ projects[boxes][download][url] = http://git.drupal.org/project/boxes.git
 projects[boxes][download][branch] = 7.x-1.x
 projects[boxes][subdir] = contrib
 
-projects[bean][version] = 1.x-dev
-projects[bean][download][type] = git
-projects[bean][download][url] = http://git.drupal.org/project/bean.git
-projects[bean][download][branch] = 7.x-1.x
-projects[bean][subdir] = contrib
+projects[radioactivity][version] = 2.0-beta2
+projects[radioactivity][download][type] = git
+projects[radioactivity][download][url] = http://git.drupal.org/project/radioactivity.git
+projects[radioactivity][download][tag] = 7.x-2.0-beta2
+projects[radioactivity][subdir] = contrib
+
+projects[styles][version] = 1.0-alpha4
+projects[styles][download][type] = git
+projects[styles][download][url] = http://git.drupal.org/project/styles.git
+projects[styles][download][tag] = 7.x-1.0-alpha4
+projects[styles][subdir] = contrib
 
 projects[jquery_plugin][version] = 1.0
 projects[jquery_plugin][download][type] = git

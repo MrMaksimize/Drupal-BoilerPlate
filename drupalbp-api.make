@@ -1,7 +1,6 @@
 ;API Modules
 
 ;*******Strongly Recommended*******
-
 projects[ctools][version] = 1.x-dev
 projects[ctools][download][type] = git
 projects[ctools][download][url] = http://git.drupal.org/project/ctools.git
@@ -38,8 +37,8 @@ projects[jquery_update][download][url] = http://git.drupal.org/project/jquery_up
 projects[jquery_update][download][tag] = 7.x-2.2
 projects[jquery_update][subdir] = contrib
 
-projects[styles][version] = 1.0-alpha4
-projects[styles][download][type] = git
-projects[styles][download][url] = http://git.drupal.org/project/styles.git
-projects[styles][download][tag] = 7.x-1.0-alpha4
-projects[styles][subdir] = contrib
+projects[bean][version] = 1.x-dev
+projects[bean][download][type] = git
+projects[bean][download][url] = http://git.drupal.org/project/bean.git
+projects[bean][download][branch] = 7.x-1.x
+projects[bean][subdir] = contrib

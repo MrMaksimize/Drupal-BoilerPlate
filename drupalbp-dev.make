@@ -40,18 +40,6 @@ projects[strongarm][download][url] = http://git.drupal.org/project/strongarm.git
 projects[strongarm][download][branch] = 7.x-2.x
 projects[strongarm][subdir] = development
 
-projects[variable][version] = 1
-projects[variable][download][type] = git
-projects[variable][download][url] = http://git.drupal.org/project/variable.git
-projects[variable][download][branch] = 7.x-1.x
-projects[variable][subdir] = development
-
-projects[masquerade][version] = 7.x-1.0-rc4
-projects[masquerade][download][type] = git
-projects[masquerade][download][url] = http://git.drupal.org/project/masquerade.git
-projects[masquerade][download][tag] = 7.x-1.0-rc4
-projects[masquerade][subdir] = development
-
 projects[module_builder][version] = 2.x-dev
 projects[module_builder][download][type] = git
 projects[module_builder][download][url] = http://git.drupal.org/project/module_builder.git
