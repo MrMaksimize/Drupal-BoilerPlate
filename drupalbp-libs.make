@@ -17,6 +17,6 @@ libraries[jquery.cycle][destination] = libraries
 
 ; Colorbox (GitHub)
 libraries[colorbox][download][type] = git
-libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox.git"
+libraries[colorbox][download][url] = "git://github.com/jackmoore/colorbox.git"
 libraries[colorbox][directory_name] = colorbox
 libraries[colorbox][destination] = libraries
