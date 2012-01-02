@@ -1,4 +1,5 @@
 libraries/*
-modules/*
+modules/contrib/*
+modules/development/*
 themes/*
 .DS_Store
