@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the dbp_defaults feature.
- */
-
-include_once('dbp_defaults.features.inc');
