@@ -19,10 +19,10 @@ projects[strongarm][download][url] = http://git.drupal.org/project/strongarm.git
 projects[strongarm][download][branch] = 7.x-2.x
 projects[strongarm][subdir] = development
 
-projects[libraries][version] = 1
+projects[libraries][version] = 1.0
 projects[libraries][download][type] = git
 projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
-projects[libraries][download][branch] = 7.x-1.x
+projects[libraries][download][branch] = 7.x-1.0
 projects[libraries][subdir] = contrib
 
 ;rest
@@ -86,10 +86,10 @@ projects[email][download][url] = http://git.drupal.org/project/email.git
 projects[email][download][tag] = 7.x-1.0
 projects[email][subdir] = contrib
 
-projects[entity][version] = 1.x-dev
+projects[entity][version] = 1.0-rc1
 projects[entity][download][type] = git
 projects[entity][download][url] = http://git.drupal.org/project/entity.git
-projects[entity][download][branch] = 7.x-1.x
+projects[entity][download][tag] = 7.x-1.0-rc1
 projects[entity][subdir] = contrib
 
 projects[field_group][version] = 1.x-dev

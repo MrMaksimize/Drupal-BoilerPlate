@@ -19,10 +19,10 @@ projects[strongarm][download][url] = http://git.drupal.org/project/strongarm.git
 projects[strongarm][download][branch] = 7.x-2.x
 projects[strongarm][subdir] = development
 
-projects[libraries][version] = 1
+projects[libraries][version] = 1.0
 projects[libraries][download][type] = git
 projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
-projects[libraries][download][branch] = 7.x-1.x
+projects[libraries][download][tag] = 7.x-1.0
 projects[libraries][subdir] = contrib
 
 projects[markdown][version] = 1.0
