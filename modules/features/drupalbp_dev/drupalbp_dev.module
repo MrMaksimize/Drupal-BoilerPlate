@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the drupalbp_dev feature.
+ */
+
+include_once('drupalbp_dev.features.inc');
