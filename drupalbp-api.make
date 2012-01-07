@@ -25,10 +25,10 @@ projects[pathauto][download][url] = http://git.drupal.org/project/pathauto.git
 projects[pathauto][download][branch] = 7.x-1.x
 projects[pathauto][subdir] = contrib
 
-projects[libraries][version] = 2
+projects[libraries][version] = 1
 projects[libraries][download][type] = git
 projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
-projects[libraries][download][branch] = 7.x-2.x
+projects[libraries][download][branch] = 7.x-1.x
 projects[libraries][subdir] = contrib
 
 projects[jquery_update][version] = 2.2

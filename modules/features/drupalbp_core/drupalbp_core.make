@@ -19,10 +19,10 @@ projects[strongarm][download][url] = http://git.drupal.org/project/strongarm.git
 projects[strongarm][download][branch] = 7.x-2.x
 projects[strongarm][subdir] = development
 
-projects[libraries][version] = 2
+projects[libraries][version] = 1
 projects[libraries][download][type] = git
 projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
-projects[libraries][download][branch] = 7.x-2.x
+projects[libraries][download][branch] = 7.x-1.x
 projects[libraries][subdir] = contrib
 
 ;rest
@@ -62,16 +62,16 @@ projects[date][download][url] = http://git.drupal.org/project/date.git
 projects[date][download][tag] = 7.x-2.0-alpha5
 projects[date][subdir] = contrib
 
-projects[delta][version] = 7.x-3.0-beta9
+projects[delta][version] = 3.0-beta9
 projects[delta][download][type] = git
 projects[delta][download][url] = http://git.drupal.org/project/delta.git
 projects[delta][download][tag] = 7.x-3.0-beta9
 projects[delta][subdir] = contrib
 
-projects[ds][version] = 1
+projects[ds][version] = 1.4
 projects[ds][download][type] = git
 projects[ds][download][url] = http://git.drupal.org/project/ds.git
-projects[ds][download][branch] = 7.x-1.x
+projects[ds][download][tag] = 7.x-1.4
 projects[ds][subdir] = contrib
 
 projects[elements][version] = 1.2
@@ -83,7 +83,7 @@ projects[elements][subdir] = contrib
 projects[email][version] = 1
 projects[email][download][type] = git
 projects[email][download][url] = http://git.drupal.org/project/email.git
-projects[email][download][branch] = 7.x-1.x
+projects[email][download][tag] = 7.x-1.0
 projects[email][subdir] = contrib
 
 projects[entity][version] = 1.x-dev
@@ -98,10 +98,10 @@ projects[field_group][download][url] = http://git.drupal.org/project/field_group
 projects[field_group][download][branch] = 7.x-1.x
 projects[field_group][subdir] = contrib
 
-projects[filefield_sources][version] = 1
+projects[filefield_sources][version] = 1.4
 projects[filefield_sources][download][type] = git
 projects[filefield_sources][download][url] = http://git.drupal.org/project/filefield_sources.git
-projects[filefield_sources][download][branch] = 7.x-1.x
+projects[filefield_sources][download][tag] = 7.x-1.4
 projects[filefield_sources][subdir] = contrib
 
 projects[globalredirect][version] = 1.x-dev
@@ -152,7 +152,7 @@ projects[omega][download][type] = git
 projects[omega][download][url] = http://git.drupal.org/project/omega.git
 projects[omega][download][tag] = 7.x-3.0
 
-projects[omega_tools][version] = 7.x-3.0-rc3
+projects[omega_tools][version] = 3.0-rc3
 projects[omega_tools][download][type] = git
 projects[omega_tools][download][url] = http://git.drupal.org/project/omega_tools.git
 projects[omega_tools][download][tag] = 7.x-3.0-rc3
@@ -164,10 +164,10 @@ projects[pathauto][download][url] = http://git.drupal.org/project/pathauto.git
 projects[pathauto][download][branch] = 7.x-1.x
 projects[pathauto][subdir] = contrib
 
-projects[pathologic][version] = 1
+projects[pathologic][version] = 1.4
 projects[pathologic][download][type] = git
 projects[pathologic][download][url] = http://git.drupal.org/project/pathologic.git
-projects[pathologic][download][branch] = 7.x-1.x
+projects[pathologic][download][tag] = 7.x-1.4
 projects[pathologic][subdir] = contrib
 
 projects[tao][type] = theme

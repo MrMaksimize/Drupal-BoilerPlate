@@ -5,7 +5,7 @@
 projects[email][version] = 1
 projects[email][download][type] = git
 projects[email][download][url] = http://git.drupal.org/project/email.git
-projects[email][download][branch] = 7.x-1.x
+projects[email][download][tag] = 7.x-1.0
 projects[email][subdir] = contrib
 
 projects[link][version] = 1.x-dev
@@ -26,10 +26,10 @@ projects[field_group][download][url] = http://git.drupal.org/project/field_group
 projects[field_group][download][branch] = 7.x-1.x
 projects[field_group][subdir] = contrib
 
-projects[filefield_sources][version] = 1
+projects[filefield_sources][version] = 1.4
 projects[filefield_sources][download][type] = git
 projects[filefield_sources][download][url] = http://git.drupal.org/project/filefield_sources.git
-projects[filefield_sources][download][branch] = 7.x-1.x
+projects[filefield_sources][download][tag] = 7.x-1.4
 projects[filefield_sources][subdir] = contrib
 
 projects[filefield_paths][version] = 1.0-beta1

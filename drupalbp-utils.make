@@ -12,10 +12,10 @@ projects[admin_menu][download][url] = http://git.drupal.org/project/admin_menu.g
 projects[admin_menu][download][branch] = 7.x-3.x
 projects[admin_menu][subdir] = contrib
 
-projects[backup_migrate][version] = 2
+projects[backup_migrate][version] = 2.2
 projects[backup_migrate][download][type] = git
 projects[backup_migrate][download][url] = http://git.drupal.org/project/backup_migrate.git
-projects[backup_migrate][download][branch] = 7.x-2.x
+projects[backup_migrate][download][tag] = 7.x-2.2
 projects[backup_migrate][subdir] = contrib
 
 projects[module_filter][version] = 1.x-dev
@@ -24,8 +24,8 @@ projects[module_filter][download][url] = http://git.drupal.org/project/module_fi
 projects[module_filter][download][branch] = 7.x-1.x
 projects[module_filter][subdir] = contrib
 
-projects[pathologic][version] = 1
+projects[pathologic][version] = 1.4
 projects[pathologic][download][type] = git
 projects[pathologic][download][url] = http://git.drupal.org/project/pathologic.git
-projects[pathologic][download][branch] = 7.x-1.x
+projects[pathologic][download][tag] = 7.x-1.4
 projects[pathologic][subdir] = contrib
