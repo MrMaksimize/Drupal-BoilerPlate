@@ -23,6 +23,6 @@ api = 2
 ;includes[drupalbp-utils] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-utils.make"
 
 ;Features Deps
-includes[drupalbp_core] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/modules/features/drupalbp_dev/drupalbp_core.make"
+includes[drupalbp_core] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/modules/features/drupalbp_core/drupalbp_core.make"
 includes[drupalbp_dev] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/modules/features/drupalbp_dev/drupalbp_dev.make"
 includes[code_markdown] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/modules/features/code_markdown.make"
