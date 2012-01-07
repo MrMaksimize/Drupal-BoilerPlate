@@ -17,6 +17,12 @@ projects[schema][download][url] = http://git.drupal.org/project/schema.git
 projects[schema][download][tag] = 7.x-1.0-beta3
 projects[schema][subdir] = development
 
+projects[backup_migrate][version] = 2
+projects[backup_migrate][download][type] = git
+projects[backup_migrate][download][url] = http://git.drupal.org/project/backup_migrate.git
+projects[backup_migrate][download][branch] = 7.x-2.x
+projects[backup_migrate][subdir] = contrib
+
 projects[coder][version] = 1
 projects[coder][download][type] = git
 projects[coder][download][url] = http://git.drupal.org/project/coder.git
