@@ -35,12 +35,6 @@ projects[diff][download][url] = http://git.drupal.org/project/diff.git
 projects[diff][download][branch] = 7.x-2.x
 projects[diff][subdir] = development
 
-projects[features][version] = 1.x-dev
-projects[features][download][type] = git
-projects[features][download][url] = http://git.drupal.org/project/features.git
-projects[features][download][branch] = 7.x-1.x
-projects[features][subdir] = development
-
 projects[prod_check][version] = 1.1-alpha1
 projects[prod_check][download][type] = git
 projects[prod_check][download][url] = http://git.drupal.org/project/prod_check.git
@@ -58,12 +52,6 @@ projects[security_review][download][type] = git
 projects[security_review][download][url] = http://git.drupal.org/project/security_review.git
 projects[security_review][download][tag] = 7.x-1.0
 projects[security_review][subdir] = development
-
-projects[strongarm][version] = 2.x-dev
-projects[strongarm][download][type] = git
-projects[strongarm][download][url] = http://git.drupal.org/project/strongarm.git
-projects[strongarm][download][branch] = 7.x-2.x
-projects[strongarm][subdir] = development
 
 projects[module_builder][version] = 2.x-dev
 projects[module_builder][download][type] = git

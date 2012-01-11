@@ -12,6 +12,10 @@ core = 7.x
 ; API version
 api = 2
 
+;projects[drupal][download][type] = git
+;projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
+;projects[drupal][download][tag] = 7.10
+
 ;Required Includes
 ;includes[drupalbp-api] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-api.make"
 ;includes[drupalbp-content] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-content.make"
