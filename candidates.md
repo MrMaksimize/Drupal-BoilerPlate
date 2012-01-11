@@ -9,3 +9,4 @@ http://drupal.org/project/prod_check
 http://drupal.org/project/security_review
 http://drupal.org/project/seo_ui
 http://drupal.org/project/features_orphans
+http://drupal.org/project/subpathauto

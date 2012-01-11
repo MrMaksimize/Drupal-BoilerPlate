@@ -164,6 +164,13 @@ projects[pathauto][download][url] = http://git.drupal.org/project/pathauto.git
 projects[pathauto][download][branch] = 7.x-1.x
 projects[pathauto][subdir] = contrib
 
+http://drupal.org/project/subpathauto
+projects[subpathauto][version] = 1.1
+projects[subpathauto][download][type] = git
+projects[subpathauto][download][url] = http://git.drupal.org/project/subpathauto.git
+projects[subpathauto][download][tag] = 7.x-1.1
+projects[subpathauto][subdir] = contrib
+
 projects[pathologic][version] = 1.4
 projects[pathologic][download][type] = git
 projects[pathologic][download][url] = http://git.drupal.org/project/pathologic.git
