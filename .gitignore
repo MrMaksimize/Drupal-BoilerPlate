@@ -3,3 +3,4 @@ modules/contrib/*
 modules/development/*
 themes/*
 .DS_Store
+www/*
