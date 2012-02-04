@@ -128,11 +128,12 @@ projects[link][download][url] = http://git.drupal.org/project/link.git
 projects[link][download][branch] = 7.x-1.x
 projects[link][subdir] = contrib
 
-projects[media][version] = 1.0-beta5
+projects[media][version] = 2.x-dev
 projects[media][download][type] = git
 projects[media][download][url] = http://git.drupal.org/project/media.git
-projects[media][download][tag] = 7.x-1.0-beta5
+projects[media][download][branch] = 7.x-2.x
 projects[media][subdir] = contrib
+;needs file entity
 
 projects[menu_block][version] = 2.x-dev
 projects[menu_block][download][type] = git
