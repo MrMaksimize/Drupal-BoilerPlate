@@ -219,15 +219,6 @@ function drupalbp_core_user_default_permissions() {
     'module' => 'locale',
   );
 
-  // Exported permission: administer media
-  $permissions['administer media'] = array(
-    'name' => 'administer media',
-    'roles' => array(
-      0 => 'anonymous user',
-    ),
-    'module' => 'media',
-  );
-
   // Exported permission: administer menu
   $permissions['administer menu'] = array(
     'name' => 'administer menu',
@@ -408,15 +399,6 @@ function drupalbp_core_user_default_permissions() {
     'module' => 'bean',
   );
 
-  // Exported permission: edit media
-  $permissions['edit media'] = array(
-    'name' => 'edit media',
-    'roles' => array(
-      0 => 'anonymous user',
-    ),
-    'module' => 'media',
-  );
-
   // Exported permission: flush caches
   $permissions['flush caches'] = array(
     'name' => 'flush caches',
@@ -532,17 +514,6 @@ function drupalbp_core_user_default_permissions() {
       0 => 'administrator',
     ),
     'module' => 'advanced_help',
-  );
-
-  // Exported permission: view media
-  $permissions['view media'] = array(
-    'name' => 'view media',
-    'roles' => array(
-      0 => 'administrator',
-      1 => 'anonymous user',
-      2 => 'authenticated user',
-    ),
-    'module' => 'media',
   );
 
   // Exported permission: view own unpublished content
