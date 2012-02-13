@@ -15,6 +15,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'access administration menu',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'admin_menu',
   );
@@ -24,6 +25,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'access administration pages',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'system',
   );
@@ -53,6 +55,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'access content overview',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'node',
   );
@@ -71,6 +74,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'access site in maintenance mode',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'system',
   );
@@ -89,6 +93,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'access user profiles',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'user',
   );
@@ -242,6 +247,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'administer nodes',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'node',
   );
@@ -287,6 +293,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'administer taxonomy',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'taxonomy',
   );
@@ -314,6 +321,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'administer users',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'user',
   );
@@ -359,6 +367,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'change own username',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'user',
   );
@@ -404,6 +413,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'flush caches',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'admin_menu',
   );
@@ -412,7 +422,7 @@ function drupalbp_core_user_default_permissions() {
   $permissions['import media'] = array(
     'name' => 'import media',
     'roles' => array(
-      0 => 'anonymous user',
+      0 => 'authenticated user',
     ),
     'module' => 'media',
   );
@@ -476,6 +486,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'use text format full_html',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'filter',
   );
@@ -494,6 +505,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'view advanced help index',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'advanced_help',
   );
@@ -503,6 +515,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'view advanced help popup',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'advanced_help',
   );
@@ -512,6 +525,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'view advanced help topic',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'advanced_help',
   );
@@ -521,6 +535,8 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'view own unpublished content',
     'roles' => array(
       0 => 'administrator',
+      1 => 'authenticated user',
+      2 => 'site-admin',
     ),
     'module' => 'node',
   );
@@ -539,6 +555,7 @@ function drupalbp_core_user_default_permissions() {
     'name' => 'view the administration theme',
     'roles' => array(
       0 => 'administrator',
+      1 => 'site-admin',
     ),
     'module' => 'system',
   );
