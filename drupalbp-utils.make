@@ -12,12 +12,6 @@ projects[admin_menu][download][url] = http://git.drupal.org/project/admin_menu.g
 projects[admin_menu][download][branch] = 7.x-3.x
 projects[admin_menu][subdir] = contrib
 
-projects[backup_migrate][version] = 2.2
-projects[backup_migrate][download][type] = git
-projects[backup_migrate][download][url] = http://git.drupal.org/project/backup_migrate.git
-projects[backup_migrate][download][tag] = 7.x-2.2
-projects[backup_migrate][subdir] = contrib
-
 projects[module_filter][version] = 1.x-dev
 projects[module_filter][download][type] = git
 projects[module_filter][download][url] = http://git.drupal.org/project/module_filter.git
