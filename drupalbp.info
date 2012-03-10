@@ -1,11 +1,45 @@
 name = Drupal BoilerPlate
-description = D7 boilerplate
-core = 7.x
+description = Drupal Boilerplate
+core = "7.x"
+package = "Features"
+php = "5.2.4"
 
-;Let features take care of the deps
-dependencies[] = drupalbp_core
-dependencies[] = drupalbp_dev
-dependencies[] = code_markdown
-
+;Enable Miniumum Requirements, let features take care of the rest
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = ctools
+dependencies[] = dashboard
+dependencies[] = email
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = help
+dependencies[] = image
+dependencies[] = jquery_update
+dependencies[] = libraries
+dependencies[] = link
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = module_filter
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = syslog
+dependencies[] = search
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+dependencies[] = token
+dependencies[] = views
+dependencies[] = views_ui
 ; Profile
 files[] = drupalbp.profile

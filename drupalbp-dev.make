@@ -45,3 +45,21 @@ projects[module_builder][download][type] = git
 projects[module_builder][download][url] = http://git.drupal.org/project/module_builder.git
 projects[module_builder][download][branch] = 7.x-2.x
 projects[module_builder][subdir] = development
+
+projects[advanced_help][version] = 1.x-dev
+projects[advanced_help][download][type] = git
+projects[advanced_help][download][url] = http://git.drupal.org/project/advanced_help.git
+projects[advanced_help][download][branch] = 7.x-1.x
+projects[advanced_help][subdir] = development
+
+projects[admin_menu][version] = 3.x-dev
+projects[admin_menu][download][type] = git
+projects[admin_menu][download][url] = http://git.drupal.org/project/admin_menu.git
+projects[admin_menu][download][branch] = 7.x-3.x
+projects[admin_menu][subdir] = development
+
+projects[module_filter][version] = 1.x-dev
+projects[module_filter][download][type] = git
+projects[module_filter][download][url] = http://git.drupal.org/project/module_filter.git
+projects[module_filter][download][branch] = 7.x-1.x
+projects[module_filter][subdir] = development

@@ -46,3 +46,6 @@ projects[pathologic][download][type] = git
 projects[pathologic][download][url] = http://git.drupal.org/project/pathologic.git
 projects[pathologic][download][tag] = 7.x-1.4
 projects[pathologic][subdir] = contrib
+
+;ADD
+;media
