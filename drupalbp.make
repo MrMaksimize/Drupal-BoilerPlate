@@ -14,7 +14,7 @@ api = 2
 
 ;projects[drupal][download][type] = git
 ;projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
-;projects[drupal][download][tag] = 7.10
+;projects[drupal][download][tag] = 7.12
 
 ;Required Includes
 ;includes[drupalbp-api] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-api.make"
