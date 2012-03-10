@@ -23,9 +23,3 @@ projects[module_filter][download][type] = git
 projects[module_filter][download][url] = http://git.drupal.org/project/module_filter.git
 projects[module_filter][download][branch] = 7.x-1.x
 projects[module_filter][subdir] = contrib
-
-projects[pathologic][version] = 1.4
-projects[pathologic][download][type] = git
-projects[pathologic][download][url] = http://git.drupal.org/project/pathologic.git
-projects[pathologic][download][tag] = 7.x-1.4
-projects[pathologic][subdir] = contrib

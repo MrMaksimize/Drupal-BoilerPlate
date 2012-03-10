@@ -19,8 +19,6 @@ api = 2
 ;Required Includes
 includes[drupalbp-api] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-api.make"
 includes[drupalbp-content] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-content.make"
-includes[drupalbp-html5] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-html5.make"
-includes[drupalbp-libs] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-libs.make"
 includes[drupalbp-seo] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-seo.make"
 includes[drupalbp-structure] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-structure.make"
 includes[drupalbp-themes] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/drupalbp-themes.make"
