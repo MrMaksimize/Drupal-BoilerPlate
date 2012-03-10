@@ -30,4 +30,4 @@ projects[drupalbp][type] = profile
 projects[drupalbp][version] = 1.x-dev
 projects[drupalbp][download][type] = git
 projects[drupalbp][download][url] = git://github.com/MrMaksimize/Drupal-BoilerPlate.git
-projects[drupalbp][download][branch] = master
+projects[drupalbp][download][branch] = base
