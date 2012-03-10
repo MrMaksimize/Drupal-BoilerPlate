@@ -45,8 +45,10 @@ function drupalbp_install() {
   );
   //set up themes
   theme_enable($theme_list);
-  variable_set('theme_default', 'omega');
-  variable_set('admin_theme', 'rubik');
+  $default_theme = 'omega';
+  $admin_theme = 'rubik';
+  variable_set('theme_default', $default_theme);
+  variable_set('admin_theme', $admin_theme);
   variable_set('node_admin_theme', '1');
   //set up default blocks
   $values = array(
@@ -183,10 +185,17 @@ function drupalbp_install() {
   variable_set('user_email_verification', '1');
   variable_set('user_cancel_method', 'user_cancel_delete');
 
-  // Regional settings
-  // Date and time types / formats
- // should be handled in a feature
+// Regional settings
+  // [admin/config/regional/settings]
+  variable_set('date_first_day', '1'); // Monday
+  variable_set('configurable_timezones', '0');
 
+  // Date and time types / formats
+  // [admin/config/regional/date-time]
+  variable_set('date_format_long', 'l, j. F Y - G:i');
+  variable_set('date_format_medium', 'j. F Y - G:i');
+  variable_set('date_format_short', 'd.m.Y - H:i');
+  
    // Feed settings
   // [admin/config/services/rss-publishing]
   $feed_description = st('@site_name installation RSS feed. This is just a test!', array('@site_name', variable_get('site_name', 'Drupal 7 Development Workbench')));
