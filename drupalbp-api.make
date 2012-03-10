@@ -22,7 +22,7 @@ projects[token][subdir] = contrib
 projects[libraries][version] = 1.0
 projects[libraries][download][type] = git
 projects[libraries][download][url] = http://git.drupal.org/project/libraries.git
-projects[libraries][download][tag] = 7.x-2.x-dev
+projects[libraries][download][branch] = 7.x-2.x-dev
 projects[libraries][subdir] = contrib
 
 projects[jquery_update][version] = 2.2
