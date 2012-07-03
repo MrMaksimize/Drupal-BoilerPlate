@@ -3,7 +3,7 @@
 projects[ds][version] = 1.4
 projects[ds][download][type] = git
 projects[ds][download][url] = http://git.drupal.org/project/ds.git
-projects[ds][download][tag] = 7.x-1.4
+projects[ds][download][branch] = 7.x-1.x
 projects[ds][subdir] = contrib
 
 projects[context][version] = 3.x-dev
@@ -29,12 +29,12 @@ projects[views][subdir] = contrib
 projects[views_slideshow][version] = 3.0
 projects[views_slideshow][download][type] = git
 projects[views_slideshow][download][url] = http://git.drupal.org/project/views_slideshow.git
-projects[views_slideshow][download][tag] = 7.x-3.0
+projects[views_slideshow][download][branch] = 7.x-3.x
 projects[views_slideshow][subdir] = contrib
 
 ;Colorbox has a dependency.
 projects[colorbox][version] = 7.x-1.2
 projects[colorbox][download][type] = git
 projects[colorbox][download][url] = http://git.drupal.org/project/colorbox.git
-projects[colorbox][download][tag] = 7.x-1.2
+projects[colorbox][download][branch] = 7.x-1.x
 projects[colorbox][subdir] = contrib

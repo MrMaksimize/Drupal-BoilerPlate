@@ -20,7 +20,7 @@ projects[google_analytics][subdir] = contrib
 projects[site_verify][version] = 1
 projects[site_verify][download][type] = git
 projects[site_verify][download][url] = http://git.drupal.org/project/site_verify.git
-projects[site_verify][download][tag] = 7.x-1.0
+projects[site_verify][download][branch] = 7.x-1.x
 projects[site_verify][subdir] = contrib
 
 projects[globalredirect][version] = 1.x-dev
