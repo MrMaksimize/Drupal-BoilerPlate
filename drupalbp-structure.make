@@ -3,7 +3,7 @@
 projects[ds][version] = 1.4
 projects[ds][download][type] = git
 projects[ds][download][url] = http://git.drupal.org/project/ds.git
-projects[ds][download][tag] = 7.x-1.4
+projects[ds][download][branch] = 7.x-1.x
 projects[ds][subdir] = contrib
 
 projects[context][version] = 3.x-dev

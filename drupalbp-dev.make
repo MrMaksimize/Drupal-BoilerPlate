@@ -7,19 +7,19 @@
 projects[devel][version] = 1.2
 projects[devel][download][type] = git
 projects[devel][download][url] = http://git.drupal.org/project/devel.git
-projects[devel][download][tag] = 7.x-1.2
+projects[devel][download][branch] = 7.x-1.x
 projects[devel][subdir] = development
 
 projects[schema][version] = 1.0-beta3
 projects[schema][download][type] = git
 projects[schema][download][url] = http://git.drupal.org/project/schema.git
-projects[schema][download][tag] = 7.x-1.0-beta3
+projects[schema][download][branch] = 7.x-1.x
 projects[schema][subdir] = development
 
 projects[coder][version] = 1.0.0
 projects[coder][download][type] = git
 projects[coder][download][url] = http://git.drupal.org/project/coder.git
-projects[coder][download][tag] = 7.x-1.0
+projects[coder][download][branch] = 7.x-1.x
 projects[coder][subdir] = development
 
 projects[diff][version] = 2.x-dev

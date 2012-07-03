@@ -10,7 +10,7 @@ projects[ctools][subdir] = contrib
 projects[entity][version] = 1.0-rc1
 projects[entity][download][type] = git
 projects[entity][download][url] = http://git.drupal.org/project/entity.git
-projects[entity][download][tag] = 7.x-1.0-rc1
+projects[entity][download][branch] = 7.x-1.x
 projects[entity][subdir] = contrib
 
 projects[token][version] = 1.x-dev
@@ -28,5 +28,5 @@ projects[libraries][subdir] = contrib
 projects[jquery_update][version] = 2.2
 projects[jquery_update][download][type] = git
 projects[jquery_update][download][url] = http://git.drupal.org/project/jquery_update.git
-projects[jquery_update][download][tag] = 7.x-2.2
+projects[jquery_update][download][branch] = 7.x-2.x
 projects[jquery_update][subdir] = contrib

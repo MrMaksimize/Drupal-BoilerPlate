@@ -5,7 +5,7 @@
 projects[email][version] = 1
 projects[email][download][type] = git
 projects[email][download][url] = http://git.drupal.org/project/email.git
-projects[email][download][tag] = 7.x-1.0
+projects[email][download][branch] = 7.x-1.x
 projects[email][subdir] = contrib
 
 projects[link][version] = 1.x-dev
@@ -17,7 +17,7 @@ projects[link][subdir] = contrib
 projects[date][version] = 2.0-alpha5
 projects[date][download][type] = git
 projects[date][download][url] = http://git.drupal.org/project/date.git
-projects[date][download][tag] = 7.x-2.0-alpha5
+projects[date][download][branch] = 7.x-2.x
 projects[date][subdir] = contrib
 
 projects[field_group][version] = 1.x-dev
@@ -37,14 +37,14 @@ projects[transliteration][subdir] = contrib
 projects[webform][version] = 3.15
 projects[webform][download][type] = git
 projects[webform][download][url] = http://git.drupal.org/project/webform.git
-projects[webform][download][tag] = 7.x-3.15
+projects[webform][download][branch] = 7.x-3.x
 projects[webform][subdir] = contrib
 
 ; Content broken links
 projects[pathologic][version] = 1.4
 projects[pathologic][download][type] = git
 projects[pathologic][download][url] = http://git.drupal.org/project/pathologic.git
-projects[pathologic][download][tag] = 7.x-1.4
+projects[pathologic][download][branch] = 7.x-1.x
 projects[pathologic][subdir] = contrib
 
 ;ADD
