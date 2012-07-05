@@ -23,6 +23,10 @@ includes[drupalbp-seo] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/
 includes[drupalbp-structure] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/base/drupalbp-structure.make"
 includes[drupalbp-themes] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/base/drupalbp-themes.make"
 
+;Optional Includes
+includes[drupalbp-dev] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/base/drupalbp-dev.make"
+
+
 ;Features Deps
 ;includes[drupalbp_core] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/modules/features/drupalbp_core/drupalbp_core.make"
 ;includes[drupalbp_dev] = "https://raw.github.com/MrMaksimize/Drupal-BoilerPlate/master/modules/features/drupalbp_dev/drupalbp_dev.make"
