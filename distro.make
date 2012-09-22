@@ -16,7 +16,7 @@ api = 2
 ; Head from git
 projects[drupal][download][type] = git
 projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
-projects[drupal][download][tag] = 7.12
+projects[drupal][download][branch] = 7.x
 
 
 ; Profiles
