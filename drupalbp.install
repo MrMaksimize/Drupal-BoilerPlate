@@ -45,7 +45,7 @@ function drupalbp_install() {
   );
   //set up themes
   theme_enable($theme_list);
-  $default_theme = 'omega';
+  $default_theme = 'zen';
   $admin_theme = 'rubik';
   variable_set('theme_default', $default_theme);
   variable_set('admin_theme', $admin_theme);
@@ -59,16 +59,6 @@ function drupalbp_install() {
       'status' => 1,
       'weight' => 0,
       'region' => 'content',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'user',
-      'delta' => 'login',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'sidebar_first',
       'pages' => '',
       'cache' => -1,
     ),
@@ -118,7 +108,7 @@ function drupalbp_install() {
       'theme' => $admin_theme,
       'status' => 1,
       'weight' => 0,
-      'region' => 'dashboard_sidebar',
+      'region' => 'page_top',
       'pages' => '',
       'cache' => -1,
     ),
@@ -195,7 +185,7 @@ function drupalbp_install() {
   variable_set('date_format_long', 'l, j. F Y - G:i');
   variable_set('date_format_medium', 'j. F Y - G:i');
   variable_set('date_format_short', 'd.m.Y - H:i');
-  
+
    // Feed settings
   // [admin/config/services/rss-publishing]
   $feed_description = st('@site_name installation RSS feed. This is just a test!', array('@site_name', variable_get('site_name', 'Drupal 7 Development Workbench')));

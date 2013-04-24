@@ -20,7 +20,6 @@ projects[drupal][download][branch] = 7.x
 
 
 ; Profiles
-
 projects[drupalbp][type] = profile
 projects[drupalbp][version] = 1.x-dev
 projects[drupalbp][download][type] = git
