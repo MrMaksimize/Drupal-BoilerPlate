@@ -1,0 +1,227 @@
+<?php
+/**
+ * Implement hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function drupalbp_install() {
+   // Allow visitor account creation, but with administrative approval.
+  variable_set('user_register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL);
+
+  // Enable default permissions for system roles.
+  user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content'));
+  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content'));
+  //create full html filter
+  $full_html_format = array(
+    'format' => 'full_html',
+    'name' => 'Full HTML',
+    'weight' => 1,
+    'filters' => array(
+      // URL filter.
+      'filter_url' => array(
+        'weight' => 0,
+        'status' => 1,
+      ),
+      // Line break filter.
+      'filter_autop' => array(
+        'weight' => 1,
+        'status' => 1,
+      ),
+      // HTML corrector filter.
+      'filter_htmlcorrector' => array(
+        'weight' => 10,
+        'status' => 1,
+      ),
+    ),
+  );
+  $full_html_format = (object) $full_html_format;
+  filter_format_save($full_html_format);
+
+  //enable themes
+  $theme_list = array(
+    'tao',
+    'rubik',
+    'zen',
+  );
+  //set up themes
+  theme_enable($theme_list);
+  $default_theme = 'zen';
+  $admin_theme = 'rubik';
+  variable_set('theme_default', $default_theme);
+  variable_set('admin_theme', $admin_theme);
+  variable_set('node_admin_theme', '1');
+  //set up default blocks
+  $values = array(
+    array(
+      'module' => 'system',
+      'delta' => 'main',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'content',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system',
+      'delta' => 'help',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'help',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system',
+      'delta' => 'main',
+      'theme' => $admin_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'content',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system',
+      'delta' => 'help',
+      'theme' => $admin_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'help',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'user',
+      'delta' => 'login',
+      'theme' => $admin_theme,
+      'status' => 1,
+      'weight' => 10,
+      'region' => 'content',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'user',
+      'delta' => 'new',
+      'theme' => $admin_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'page_top',
+      'pages' => '',
+      'cache' => -1,
+    ),
+  );
+  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  foreach ($values as $record) {
+    $query->values($record);
+  }
+  $query->execute();
+
+   // Enable user picture support and set the default to a square thumbnail option.
+  variable_set('user_pictures', '1');
+  variable_set('user_picture_dimensions', '1024x1024');
+  variable_set('user_picture_file_size', '800');
+  variable_set('user_picture_style', 'thumbnail');
+
+  // Insert default pre-defined RDF mapping into the database.
+  $rdf_mappings = array(
+    array(
+      'type' => 'node',
+      'bundle' => 'page',
+      'mapping' => array(
+        'rdftype' => array('foaf:Document'),
+      ),
+    ),
+    array(
+      'type' => 'node',
+      'bundle' => 'article',
+      'mapping' => array(
+        'field_image' => array(
+          'predicates' => array('og:image', 'rdfs:seeAlso'),
+          'type' => 'rel',
+        ),
+        'field_tags' => array(
+          'predicates' => array('dc:subject'),
+          'type' => 'rel',
+        ),
+      ),
+    ),
+  );
+  foreach ($rdf_mappings as $rdf_mapping) {
+    rdf_mapping_save($rdf_mapping);
+  }
+
+  // Create a default role for site administrators, with all available permissions assigned.
+  $admin_role = new stdClass();
+  $admin_role->name = 'administrator';
+  $admin_role->weight = 2;
+  user_role_save($admin_role);
+  user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
+  // Set this as the administrator role.
+  variable_set('user_admin_role', $admin_role->rid);
+
+  // Assign user 1 the "administrator" role.
+  db_insert('users_roles')
+    ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
+    ->execute();
+  //based on https://github.com/mikewink/drupal7-profile-dev/blob/master/dev.install
+
+   // Account settings
+  // [admin/config/people/accounts]
+  variable_set('user_admin_role', '1');
+  variable_set('user_register', '0');
+  variable_set('user_email_verification', '1');
+  variable_set('user_cancel_method', 'user_cancel_delete');
+
+// Regional settings
+  // [admin/config/regional/settings]
+  variable_set('date_first_day', '1'); // Monday
+  variable_set('configurable_timezones', '0');
+
+  // Date and time types / formats
+  // [admin/config/regional/date-time]
+  variable_set('date_format_long', 'l, j. F Y - G:i');
+  variable_set('date_format_medium', 'j. F Y - G:i');
+  variable_set('date_format_short', 'd.m.Y - H:i');
+
+   // Feed settings
+  // [admin/config/services/rss-publishing]
+  $feed_description = st('@site_name installation RSS feed. This is just a test!', array('@site_name', variable_get('site_name', 'Drupal 7 Development Workbench')));
+  variable_set('feed_description', $feed_description);
+  variable_set('feed_default_items', '5');
+  variable_set('feed_item_length', 'fulltext');
+
+  // File system
+  // [admin/config/media/file-system]
+
+  drupal_mkdir('../tmp');
+  drupal_mkdir('../files');
+
+  variable_set('file_temporary_path', '../tmp');
+  variable_set('file_public_path', 'sites/default/files');
+  variable_set('file_private_path', '../files');
+  variable_set('file_default_scheme', 'public');
+
+  // Image toolkit
+  // [admin/config/media/image-toolkit]
+  variable_set('image_toolkit', 'gd');
+  variable_set('image_jpeg_quality', '100');
+
+  // Maintenance mode
+  // [admin/config/development/maintenance]
+  $maintenance_mode_message = st('@site_name is currently under maintenance. We should be back shortly. Thank you for your patience.', array('@site_name' => variable_get('site_name', 'Drupal 7 Development Workbench')));
+  variable_set('maintenance_mode_message', $maintenance_mode_message);
+  variable_set('maintenance_mode', '0');
+
+  // Devel settings
+  // [admin/config/development/devel]
+  if(module_exists('devel')) {
+    variable_set('devel_error_handler', 3);
+    variable_set('devel_krumo_skin', 'blue');
+    variable_set('devel_rebuild_theme_registry', 1);
+  }
+
+  variable_set('cron_safe_threshold', '10800');
+}
