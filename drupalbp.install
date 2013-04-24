@@ -41,7 +41,7 @@ function drupalbp_install() {
   $theme_list = array(
     'tao',
     'rubik',
-    'omega',
+    'zen',
   );
   //set up themes
   theme_enable($theme_list);

@@ -1,22 +1,10 @@
 ;Required themes.  Rubik admin and omega are currently optional
 ;Omega and Utilities
+
 projects[omega][type] = theme
-;projects[omega][version] = 7.x-3.0
 projects[omega][download][type] = git
-projects[omega][download][url] = http://git.drupal.org/project/omega.git
-projects[omega][download][branch] = 7.x-3.x
-
-;projects[delta][version] = 3.0-beta9
-projects[delta][download][type] = git
-projects[delta][download][url] = http://git.drupal.org/project/delta.git
-projects[delta][download][branch] = 7.x-3.x
-projects[delta][subdir] = contrib
-
-;projects[omega_tools][version] = 3.0-rc3
-projects[omega_tools][download][type] = git
-projects[omega_tools][download][url] = http://git.drupal.org/project/omega_tools.git
-projects[omega_tools][download][branch] = 7.x-3.x
-projects[omega_tools][subdir] = contrib
+projects[omega][download][url] = http://git.drupal.org/project/zen.git
+projects[omega][download][branch] = 7.x-5.x
 
 ;Rubik admin theme
 projects[tao][type] = theme

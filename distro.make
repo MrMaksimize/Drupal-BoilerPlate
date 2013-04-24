@@ -20,11 +20,6 @@ projects[drupal][download][branch] = 7.x
 
 
 ; Profiles
-;projects[dev][type] = profile
-;projects[dev][version] = 1.x-dev
-;projects[dev][download][type] = git
-;projects[dev][download][url] = git://github.com/MrMaksimize/Drupal-Blog-Profile.git
-;projects[dev][download][branch] = master
 
 projects[drupalbp][type] = profile
 projects[drupalbp][version] = 1.x-dev
