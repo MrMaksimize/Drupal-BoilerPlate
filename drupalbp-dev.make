@@ -15,7 +15,6 @@ projects[schema][download][url] = http://git.drupal.org/project/schema.git
 projects[schema][download][branch] = 7.x-1.x
 projects[schema][subdir] = development
 
-projects[coder][version] = 1.0.0
 projects[coder][download][type] = git
 projects[coder][download][url] = http://git.drupal.org/project/coder.git
 projects[coder][download][branch] = 7.x-2.x
