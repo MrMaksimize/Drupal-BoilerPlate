@@ -1,15 +1,11 @@
 ; Structure
 ;*******Strongly Recommended*******
 
-projects[ds][download][type] = git
-projects[ds][download][url] = http://git.drupal.org/project/ds.git
-projects[ds][download][branch] = 7.x-1.x
-projects[ds][subdir] = contrib
 
-projects[context][download][type] = git
-projects[context][download][url] = http://git.drupal.org/project/context.git
-projects[context][download][branch] = 7.x-3.x
-projects[context][subdir] = contrib
+projects[panels][download][type] = git
+projects[panels][download][url] = http://git.drupal.org/project/panels.git
+projects[panels][download][branch] = 7.x-3.x
+projects[panels][subdir] = contrib
 
 
 ; Views

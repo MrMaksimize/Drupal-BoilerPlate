@@ -18,29 +18,24 @@ projects[schema][subdir] = development
 projects[coder][version] = 1.0.0
 projects[coder][download][type] = git
 projects[coder][download][url] = http://git.drupal.org/project/coder.git
-projects[coder][download][branch] = 7.x-1.x
+projects[coder][download][branch] = 7.x-2.x
 projects[coder][subdir] = development
 
 
 projects[diff][download][type] = git
 projects[diff][download][url] = http://git.drupal.org/project/diff.git
-projects[diff][download][branch] = 7.x-2.x
+projects[diff][download][branch] = 7.x-3.x
 projects[diff][subdir] = development
 
 projects[features][download][type] = git
 projects[features][download][url] = http://git.drupal.org/project/features.git
-projects[features][download][branch] = 7.x-1.x
+projects[features][download][branch] = 7.x-2.x
 projects[features][subdir] = development
 
 projects[strongarm][download][type] = git
 projects[strongarm][download][url] = http://git.drupal.org/project/strongarm.git
 projects[strongarm][download][branch] = 7.x-2.x
 projects[strongarm][subdir] = development
-
-projects[module_builder][download][type] = git
-projects[module_builder][download][url] = http://git.drupal.org/project/module_builder.git
-projects[module_builder][download][branch] = 7.x-2.x
-projects[module_builder][subdir] = development
 
 projects[advanced_help][download][type] = git
 projects[advanced_help][download][url] = http://git.drupal.org/project/advanced_help.git
